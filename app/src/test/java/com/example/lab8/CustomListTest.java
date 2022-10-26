@@ -23,6 +23,7 @@ public class CustomListTest {
     }
     @Test
     public void addCityTest(){
+        //to push
         list = MockCityList();
         int listSize = list.getCount();
         list.addCity(new City("Estevan", "SK"));
